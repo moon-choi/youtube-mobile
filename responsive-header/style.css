@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: pink;
+  font-family: 'Kanit', sans-serif;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+.logo_icon {
+  margin: 20px 10px;
+  color: fuschia;
+}
+
+.nav_logo{
+  display: flex;
+  color: fuchsia;
+}
+
+.logo_name {
+  color: white;
+}
+
+.nav_menu_items{
+  padding-left: 0px;
+  display: flex;
+  list-style: none;
+}
+
+.nav_menu_items > li {
+  padding: 0 10px;
+}
+
+.nav_menu_items > li > a {
+  color: white;
+}
+
+.nav_menu_items > li > a:hover {
+  background-color: fuchsia;
+  padding: 0 10px;
+  border-radius: 10px;
+}
+
+.nav_social {
+  margin: 16px 10px;
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.nav_social li {
+  padding: 0 10px;
+  color: fuschia;
+}
+
+.nav_social li {
+  padding: 0 5px;
+  color: fuchsia;
+
+}
+
+@media screen and (max-width: 768px) {
+
+  .navbar {
+    flex-direction: column;
+  }
+
+  .nav_logo {
+    align-items: flex-start;
+  }
+
+  .nav_menu_items {
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .nav_menu_items li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav_menu_items > li:hover {
+    width: 90%;
+    padding: 0px 10px;
+    background-color: fuchsia;
+  }
+
+  .nav_social {
+    justify-content: center;
+  }
+}
