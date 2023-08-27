@@ -1,0 +1,174 @@
+body {
+  font-family: 'Assistant', sans-serif;
+  font-family: 'Kanit', sans-serif;
+  margin: 0;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+.fas, .fab {
+  text-align: center;
+  color: rgb(131, 129, 129)
+}
+
+.action-text {
+  margin-top: 5px;
+  font-size: 10px;
+}
+
+.actions li {
+  list-style: none;
+
+}
+
+.icons {
+  padding-left: 5px;
+}
+
+.info {
+  padding: 0 10px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.tags {
+  display: flex;
+  padding-left: 0;
+  color: rgb(56, 108, 205);
+  font-size: 10px;
+}
+
+.title-more {
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  margin: 0;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.more {
+  height: 100%;
+}
+
+button, button:focus {
+  border: none;
+}
+
+.player {
+  max-height: 500px;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  background: black;
+}
+
+.player video {
+  width: 100%;
+  height: 100%;
+  max-width: 800px;
+  background-color: black;
+}
+
+.actions {
+  margin: 10px 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.actions button {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  background: none;
+}
+
+.actions button i {
+  margin: 0 auto;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.actions button i.active {
+  color: rgb(11, 151, 221)
+}
+.channel {
+  display: flex;
+  justify-content: space-between;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+}
+
+.author-name {
+  margin: 0px;
+}
+
+.author-info {
+  margin-left: 10px;
+}
+
+.subscribers {
+  margin: 0px;
+}
+
+.upNext {
+  width: 100%;
+  text-align: center;
+  max-width: 600px;
+}
+
+.upNext .item {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.upNext .item .thumb-box {
+  flex: 1 1 35%;
+  margin-right: 20px;
+}
+
+
+.upNext .item .thumb-info {
+  display: flex;
+  flex: 1 1 60%;
+  flex-direction: column;
+  text-align: left;
+  margin-right: 10px;
+}
+
+.thumb-view, .thumb-author{
+  font-size: 13px;
+  color: grey;  
+}
+
+.upNext .item .thumb-more {
+  flex: 1 1 5%;
+}
+
+.upNext img {
+  margin: 5px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .info-upNext {
+    display: flex;
+  }
+}
